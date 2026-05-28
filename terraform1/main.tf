@@ -35,17 +35,17 @@ data "aws_security_group" "work_node" {
 locals {
   server_config = {
     "master_node" = {
-      instance_type = "t2.small"
+      instance_type = "t3.small"
       ami           = "ami-0388e3ada3d9812da" #
       sg_id         = data.aws_security_group.master_node.id # Added data. prefix
     },
     "work_node_1" = {
-      instance_type = "t2.small"
+      instance_type = "t3.small"
       ami           = "ami-0388e3ada3d9812da"
       sg_id         = data.aws_security_group.work_node.id
     },
     "work_node_2" = {
-      instance_type = "t2.small"
+      instance_type = "t3.small"
       ami           = "ami-0388e3ada3d9812da"
       sg_id         = data.aws_security_group.work_node.id
     }
