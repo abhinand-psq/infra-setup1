@@ -222,7 +222,7 @@ worker-node-1        Ready
 worker-node-2        Ready
 
 ```
-
+![Alt Text](screenshots/Kubernetes-node-status.png)
 ----------
 
 ### 5. Verify Pods
