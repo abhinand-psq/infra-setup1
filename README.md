@@ -192,6 +192,7 @@ Ansible automatically:
     
 -   Joins worker nodes
     
+![image](/screenshots/ansible-playbook.png)
 
 ----------
 
@@ -272,6 +273,8 @@ Application Deployment
 Deployment Summary
 
 ```
+
+![image](/screenshots/automation-workflow.png)
 
 ----------
 
